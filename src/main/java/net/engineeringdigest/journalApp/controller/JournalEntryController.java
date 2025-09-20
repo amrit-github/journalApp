@@ -12,7 +12,7 @@ import java.util.Map;
 @RequestMapping("/journal")
 public class JournalEntryController {
 
-    private Map<Long, JournalEntry> journalEntries = new HashMap<>();
+    /*private Map<Long, JournalEntry> journalEntries = new HashMap<>();
 
     @GetMapping
     public List<JournalEntry> getAll(){
@@ -38,5 +38,5 @@ public class JournalEntryController {
     @PutMapping("id/{id}")
     public JournalEntry updateJournalById(@PathVariable Long id, @RequestBody JournalEntry journalEntry){
         return journalEntries.put(id, journalEntry);
-    }
+    }*/
 }
